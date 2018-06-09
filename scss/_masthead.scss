@@ -9,6 +9,10 @@ header.masthead {
     font-size: 1.3rem;
     @include body-font;
   }
+  .profilePicture {
+    border-radius: 50%;
+    overflow: hidden;
+  }
 }
 @media (min-width: 992px) {
   header.masthead {
