@@ -19,6 +19,9 @@
         font-size: 1.5rem;
       }
     }
+    img {
+      @include shadow;
+    }
   }
   @media (min-width: 576px) {
     margin-bottom: -30px;
