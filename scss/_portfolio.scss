@@ -68,6 +68,9 @@
     .btn.btn-primary.btn-lg.rounded-pill {
       margin-bottom: .25rem;
     }
+    .btn.btn-primary.btn-lg.rounded-pill:focus {
+      color: #fff;
+    }
   }
   @media(min-width: 768px) {
     .portfolio-modal-dialog {
